@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body{
+    border: 2px solid blue;
+    display: flex;
+    flex-direction:row
+    width: 600px;
+    height: 120px;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+body>div{
+    width: 90px;
+    height: 90px;
+    border: 1px solid red;
+}
+
